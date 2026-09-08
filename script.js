@@ -39,7 +39,7 @@ hamburger.addEventListener("click", function() {
         hamburger.innerHTML = "<i class='fa-solid fa-xmark'></i>"
     }
     else{
-        hamburger.innerHTML = "<i class='fa-solid fa-bars'><i/> "
+        hamburger.innerHTML = "<i class='fa-solid fa-bars'></i>"
     }
 
 });
@@ -57,7 +57,7 @@ const emailError = document.querySelector(".input-group:nth-child(2) .error-msg"
 contactForm.addEventListener("submit", function(event) {
     event.preventDefault();
 
-    let isvalid = true;
+    let isValid = true;
 
     if(nameInput.value === ""){
         nameError.textContent = "Please enter your name";
