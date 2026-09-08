@@ -309,7 +309,7 @@ body.light-mode .hero-social a{
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 12px;
     padding: 28px;
-    transition: transform 0.2s ease, bprder-color 0.2s ease;
+    transition: transform 0.2s ease, border-color 0.2s ease;
 }
 .skill-card:hover{
     transform: translateY(-4px);
@@ -362,7 +362,7 @@ body.light-mode .hero-social a{
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.08);
     overflow: hidden;
-    transition: transform o.2s ease, border-color 0.2s ease;
+    transition: transform 0.2s ease, border-color 0.2s ease;
     border-radius: 8px;
 }
 .project-card:hover{
